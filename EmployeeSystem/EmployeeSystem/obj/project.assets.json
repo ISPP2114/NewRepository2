@@ -2151,23 +2151,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\0109-13\\.nuget\\packages\\": {},
+    "C:\\Users\\0109-14\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\temp\\ISPP-21\\МДК.02.02\\ЛР№4\\EmployeeSystem\\EmployeeSystem\\EmployeeSystem.csproj",
+      "projectUniqueName": "C:\\temp\\ИСПП-21\\МДК 02.02\\ЛабРаб\\Лабораторная работа 3\\Clone\\NewRepository2\\EmployeeSystem\\EmployeeSystem\\EmployeeSystem.csproj",
       "projectName": "EmployeeSystem",
-      "projectPath": "C:\\temp\\ISPP-21\\МДК.02.02\\ЛР№4\\EmployeeSystem\\EmployeeSystem\\EmployeeSystem.csproj",
-      "packagesPath": "C:\\Users\\0109-13\\.nuget\\packages\\",
-      "outputPath": "C:\\temp\\ISPP-21\\МДК.02.02\\ЛР№4\\EmployeeSystem\\EmployeeSystem\\obj\\",
+      "projectPath": "C:\\temp\\ИСПП-21\\МДК 02.02\\ЛабРаб\\Лабораторная работа 3\\Clone\\NewRepository2\\EmployeeSystem\\EmployeeSystem\\EmployeeSystem.csproj",
+      "packagesPath": "C:\\Users\\0109-14\\.nuget\\packages\\",
+      "outputPath": "C:\\temp\\ИСПП-21\\МДК 02.02\\ЛабРаб\\Лабораторная работа 3\\Clone\\NewRepository2\\EmployeeSystem\\EmployeeSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\0109-13\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\0109-14\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2175,6 +2175,7 @@
         "net8.0-windows"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
