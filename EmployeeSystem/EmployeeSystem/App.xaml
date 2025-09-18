@@ -4,6 +4,10 @@
              xmlns:local="clr-namespace:EmployeeSystem"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="2.5"/>
+            <Setter Property="MinWidth" Value="75"/>
+            <Setter Property="Width" Value="Auto"/>
+        </Style>
     </Application.Resources>
 </Application>

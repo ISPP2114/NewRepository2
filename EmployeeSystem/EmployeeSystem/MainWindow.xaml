@@ -7,6 +7,30 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
-        
+        <StackPanel x:Name="employeeAddPanel" Visibility="Collapsed">
+            <Button x:Name="closeFormButton" Content="X" Width="17.5" Height="17.5" HorizontalAlignment="Right" VerticalAlignment="Center" Background="IndianRed" ToolTip="Закрыть форму"/>
+            <WrapPanel>
+                <TextBox x:Name="firstNameTextBox"/>
+                <TextBox x:Name="lastNameTextBox"/>
+                <TextBox x:Name="salaryTextBox"/>
+                <TextBox x:Name="departmentNameTextBox"/>
+            </WrapPanel>
+            <Button x:Name="addEmployeeButton" Content="Добавить" HorizontalAlignment="Right" Margin="5 0 5 2.5" Padding="2.5 0"/>
+        </StackPanel>
+        <DataGrid x:Name="employeeDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Имя" Binding="{Binding FirstName}"/>
+                <DataGridTextColumn Header="Фамилия" Binding="{Binding LastName}"/>
+                <DataGridTextColumn Header="Зарплата" Binding="{Binding Salary}"/>
+                <DataGridTextColumn Header="Отдел" Binding="{Binding Department.Name}"/>
+            </DataGrid.Columns>
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Добавить"/>
+                    <MenuItem Header="Изменить"/>
+                    <MenuItem Header="Удалить"/>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+        </DataGrid>
     </StackPanel>
 </Window>

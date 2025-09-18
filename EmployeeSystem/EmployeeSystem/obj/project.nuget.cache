@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/3EcC74QRHk=",
+  "dgSpecHash": "a9+mpzpyAcc=",
   "success": true,
-  "projectFilePath": "C:\\temp\\ISPP-21\\МДК.02.02\\ЛР№4\\EmployeeSystem\\EmployeeSystem\\EmployeeSystem.csproj",
+  "projectFilePath": "C:\\temp\\ISPP-21\\МДК.02.02\\ЛР№4\\NewRepository2\\EmployeeSystem\\EmployeeSystem\\EmployeeSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\0109-13\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\0109-13\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
