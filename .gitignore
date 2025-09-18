@@ -1,0 +1,8 @@
+*.log
+*.tmp
+*.env
+*.exe
+*.dll
+**/debug/
+**/bin/
+
